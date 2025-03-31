@@ -1,0 +1,80 @@
+.negrito-vermelho {
+    font-weight: bold;
+    color: #800000;
+  }
+
+body {
+    background-color: #FAF3E0; /* Fundo neutro bege */
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    background: #800000; /* Vermelho terroso */
+    border-bottom: 3px solid #556B2F; /* Verde terroso */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E0C097; /* Areia para contraste */
+}
+
+.apresentacao {
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #800000; /* Vermelho terroso */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #6B4226; /* Tom intermediário entre vermelho e marrom */
+}
+
+button {
+    background-color: #556B2F; /* Verde terroso */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6A7B38; /* Verde mais claro */
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    border-top: 3px solid #556B2F;
+    background: #800000;
+    color: white;
+}
+
